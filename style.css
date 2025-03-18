@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #9b4c5e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    bottom:300px;
+}
+.pig-face {
+    width: 250px;
+    height: 250px;
+    background-color: #f8c8dc;
+    border-radius: 50%;
+    border:3px solid black;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* Ears */
+.ear {
+    width: 80px;
+    height: 100px;
+    background-color: #f8c8dc;
+    border-radius: 50%;
+    border:3px solid black;
+    position: absolute;
+    top: -50px;
+}
+.left-ear {
+    left: -30px;
+}
+.right-ear {
+    right: -30px;
+}
+
+/* Eyes */
+.eyes {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 60px;
+}
+.eye {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* Snout */
+.snout {
+    width: 120px;
+    height: 80px;
+    background-color: #f28cb1;
+    border-radius: 60px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nostril {
+    width: 20px;
+    height: 30px;
+    background-color: #9b4c5e;
+    border-radius: 50%;
+}
+.outer-eye {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+
+.left-outer-eye {
+    left: 50px;
+}
+
+.right-outer-eye {
+    right: 50px;
+}
+
+.inner-eye {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
